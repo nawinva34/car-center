@@ -78,11 +78,11 @@
     </div>
 
     <!-- Section2-->
-    <div class="pt-16 px-32 flex justify-around">
+    <div class="py-16 px-32 flex justify-around">
       <div>
         <h1 class="text-3xl mb-4">BMW M4 COMPETITION COUPÉ - IMPRESSIONS.</h1>
         <!-- <h1 class="text-xl">BMW M4 COMPETITION COUPÉ – จุดเด่นที่สำคัญ</h1> -->
-        <p class="text-md mr-8">
+        <p class="mr-8">
           BMW M4 Competition Coupé BMW M4 Competition Coupé
           ให้สมรรถนะความแรงในระดับสูงสุดสำหรับในกลุ่มของ BMW 4 Series Coupé M
           Automobiles โดยได้รับขุมพลังแรงมาจากเครื่องยนต์เบนซินหกสูบแถวเรียง BMW
@@ -122,7 +122,32 @@
       </div>
     </div>
 
-    <div></div>
+    <div class="section3 flex justify-between items-center">
+      <div class="flex justify-around items-center">
+        <img src="../assets/img/m4_2.png" class="w-[60%]" />
+        <div class="px-16">
+          <p class="text-2xl">
+            อัตราสิ้นเปลืองเชื้อเพลิงและระดับการปล่อย CO2 ของ BMW 4 SERIES COUPÉ
+            M AUTOMOBILES
+          </p>
+          <p>
+            BMW M4 Competition Coupé: อัตราสิ้นเปลืองเชื้อเพลิงเป็นลิตร/100 กม.
+            (โดยเฉลี่ย): 10.3 ระดับการปล่อย CO2 เป็นกรัม/กม. (โดยเฉลี่ย): 223
+          </p>
+          <p>
+            BMW M4 Coupé: อัตราสิ้นเปลืองเชื้อเพลิงเป็นลิตร/100 กม. (โดยเฉลี่ย):
+            9.8 ระดับการปล่อย CO2 เป็นกรัม/กม. (โดยเฉลี่ย): 234
+          </p>
+          <p>
+            ค่าของอัตราสิ้นเปลืองเชื้อเพลิง ระดับการปล่อย CO2
+            และอัตราการสิ้นเปลืองพลังงานที่แสดงอยู่นี้จะระบุตามขั้นตอนการวัดค่าตามมาตรฐานของ
+            VO (EU) 715/2007 ในเวอร์ชันที่ใช้งานขณะที่ได้รับอนุมัติ
+            ตัวเลขที่แสดงจะอ้างอิงตามรถที่มีการกำหนดค่าพื้นฐานจากประเทศเยอรมนีและช่วงค่าที่แสดงจะพิจารณาตามอุปกรณ์เสริม
+            และความแตกต่างของขนาดล้อและยางของรุ่นที่เลือกมา
+          </p>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -149,6 +174,14 @@ export default {
   background-position: center;
   background-repeat: no-repeat;
   height: 800px;
+}
+
+.section3 {
+  background-image: url('../assets/img/bg_2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 700px;
 }
 
 .image-container {
